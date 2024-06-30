@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|f:\\programming\\- projects\\graduation project\\aidms\\aidms\\controllers\\regestrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\regestrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\repositories\\googlecloudvisionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\repositories\\googlecloudvisionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\dtos\\documentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\dtos\\documentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\dtos\\uploaddocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\dtos\\uploaddocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\logs\\log-20240623.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\logs\\log-20240623.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\aidms.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\aidms.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\repositories\\googlecloudstoragerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\repositories\\googlecloudstoragerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\security entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\security entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\aidms\\aidms.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B76990D3-611B-45C9-8E8C-E9CE36A5593C}|AIDMS\\AIDMS.csproj|solutionrelative:aidms\\aidms.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 256,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UploadDocumentDto.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\DTOs\\UploadDocumentDto.cs",
+              "RelativeDocumentMoniker": "AIDMS\\DTOs\\UploadDocumentDto.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\DTOs\\UploadDocumentDto.cs",
+              "RelativeToolTip": "AIDMS\\DTOs\\UploadDocumentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T07:39:47.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegestrationController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\RegestrationController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\RegestrationController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\RegestrationController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\RegestrationController.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAuwAUBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T01:45:12.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAAACgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T14:21:27.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\RolesController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T01:01:43.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\StudentController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAJkCAAAAAAAAAAAswKgCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T14:26:33.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\EmployeeController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAcwDkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T00:57:23.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\appsettings.json",
+              "RelativeDocumentMoniker": "AIDMS\\appsettings.json",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\appsettings.json",
+              "RelativeToolTip": "AIDMS\\appsettings.json",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswD0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T17:15:49.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\ApplicationController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\ApplicationController.cs",
+              "ViewState": "AQIAAFUBAAAAAAAAAAAcwA8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T09:08:34.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoogleCloudVisionRepository.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Repositories\\GoogleCloudVisionRepository.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Repositories\\GoogleCloudVisionRepository.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Repositories\\GoogleCloudVisionRepository.cs",
+              "RelativeToolTip": "AIDMS\\Repositories\\GoogleCloudVisionRepository.cs",
+              "ViewState": "AQIAAK4BAAAAAAAAAAAUwLQBAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:13:03.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentDto.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\DTOs\\DocumentDto.cs",
+              "RelativeDocumentMoniker": "AIDMS\\DTOs\\DocumentDto.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\DTOs\\DocumentDto.cs",
+              "RelativeToolTip": "AIDMS\\DTOs\\DocumentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T07:51:55.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Entities\\Notification.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Entities\\Notification.cs",
+              "RelativeToolTip": "AIDMS\\Entities\\Notification.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T13:25:03.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Controllers\\DocumentsController.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "AIDMS\\Controllers\\DocumentsController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAIEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T09:08:56.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "log-20240623.txt",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Logs\\log-20240623.txt",
+              "RelativeDocumentMoniker": "AIDMS\\Logs\\log-20240623.txt",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Logs\\log-20240623.txt",
+              "RelativeToolTip": "AIDMS\\Logs\\log-20240623.txt",
+              "ViewState": "AQIAAIUCAAAAAAAAAAAAAJ0CAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-23T02:28:39.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Program.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Program.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Program.cs",
+              "RelativeToolTip": "AIDMS\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADgvzoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T20:07:18.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AIDMS\\appsettings.Development.json",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\appsettings.Development.json",
+              "RelativeToolTip": "AIDMS\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T01:47:51.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GoogleCloudStorageRepository.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Repositories\\GoogleCloudStorageRepository.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Repositories\\GoogleCloudStorageRepository.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Repositories\\GoogleCloudStorageRepository.cs",
+              "RelativeToolTip": "AIDMS\\Repositories\\GoogleCloudStorageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T20:46:10.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AIDMS.http",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\AIDMS.http",
+              "RelativeDocumentMoniker": "AIDMS\\AIDMS.http",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\AIDMS.http",
+              "RelativeToolTip": "AIDMS\\AIDMS.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-22T10:56:44.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AIDMS\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AIDMS\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T15:56:46.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Security Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AIDMS\\Security Entities\\ApplicationUser.cs",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\Security Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "AIDMS\\Security Entities\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T11:14:25.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AIDMS",
+              "DocumentMoniker": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\AIDMS.csproj",
+              "RelativeDocumentMoniker": "AIDMS\\AIDMS.csproj",
+              "ToolTip": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\AIDMS.csproj",
+              "RelativeToolTip": "AIDMS\\AIDMS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-22T10:53:21.456Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

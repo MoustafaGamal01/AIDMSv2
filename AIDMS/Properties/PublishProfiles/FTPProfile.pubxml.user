@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkDIkgE+D90iK4Hmua21TfQAAAAACAAAAAAAQZgAAAAEAACAAAADra5FxJX6HMfAOMMomYIUG4/g+3RA5Zc4XrqpCdfnrZAAAAAAOgAAAAAIAACAAAADvsHRoZfPNeWdeMxZNSUZoAiOeZJqv4t+PAwD8zlZ/FCAAAAD1BT+wJGaVh5ATreNTgxS4fc2B2yaHvLWWUSFgtxbR6kAAAADa9G8LNdiTYvyM+MLJzdNCpVqssbhIkBPj38ID5Fuk4xn4P9qKOsZizgrYKG0myj+nAhP3u5IYatNZPEvpEK1J</EncryptedPassword>
+    <_PublishTargetUrl>ftp://AIDMStest.somee.com/www.AIDMStest.somee.com</_PublishTargetUrl>
+    <History>False|2024-06-22T23:16:08.9314876Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AIDMS.deps.json">
+      <publishTime>06/23/2024 02:10:59</publishTime>
+    </File>
+    <File Include="AIDMS.dll">
+      <publishTime>06/23/2024 02:10:58</publishTime>
+    </File>
+    <File Include="AIDMS.exe">
+      <publishTime>06/23/2024 02:10:58</publishTime>
+    </File>
+    <File Include="AIDMS.pdb">
+      <publishTime>06/23/2024 02:10:58</publishTime>
+    </File>
+    <File Include="AIDMS.runtimeconfig.json">
+      <publishTime>06/23/2024 02:10:58</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/17/2024 02:27:57</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/23/2024 01:58:28</publishTime>
+    </File>
+    <File Include="Azure.Core.dll">
+      <publishTime>09/07/2023 20:50:30</publishTime>
+    </File>
+    <File Include="Azure.Identity.dll">
+      <publishTime>10/18/2023 22:59:42</publishTime>
+    </File>
+    <File Include="BCrypt.Net-Core.dll">
+      <publishTime>12/20/2018 17:32:44</publishTime>
+    </File>
+    <File Include="BouncyCastle.Cryptography.dll">
+      <publishTime>05/07/2024 19:05:58</publishTime>
+    </File>
+    <File Include="de/PdfSharp.Charting.resources.dll">
+      <publishTime>05/28/2024 10:33:48</publishTime>
+    </File>
+    <File Include="de/PdfSharp.resources.dll">
+      <publishTime>05/28/2024 10:33:48</publishTime>
+    </File>
+    <File Include="Google.Api.CommonProtos.dll">
+      <publishTime>03/14/2024 09:49:40</publishTime>
+    </File>
+    <File Include="Google.Api.Gax.dll">
+      <publishTime>03/25/2024 18:53:08</publishTime>
+    </File>
+    <File Include="Google.Api.Gax.Grpc.dll">
+      <publishTime>03/25/2024 18:53:18</publishTime>
+    </File>
+    <File Include="Google.Api.Gax.Rest.dll">
+      <publishTime>03/25/2024 18:53:10</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.dll">
+      <publishTime>02/22/2024 19:32:28</publishTime>
+    </File>
+    <File Include="Google.Apis.Core.dll">
+      <publishTime>02/22/2024 19:32:24</publishTime>
+    </File>
+    <File Include="Google.Apis.dll">
+      <publishTime>02/22/2024 19:32:26</publishTime>
+    </File>
+    <File Include="Google.Apis.Storage.v1.dll">
+      <publishTime>03/25/2024 10:10:22</publishTime>
+    </File>
+    <File Include="Google.Cloud.Storage.V1.dll">
+      <publishTime>03/27/2024 10:06:26</publishTime>
+    </File>
+    <File Include="Google.Cloud.Vision.V1.dll">
+      <publishTime>05/17/2024 18:41:42</publishTime>
+    </File>
+    <File Include="Google.LongRunning.dll">
+      <publishTime>03/25/2024 20:32:20</publishTime>
+    </File>
+    <File Include="Google.Protobuf.dll">
+      <publishTime>11/01/2023 15:40:16</publishTime>
+    </File>
+    <File Include="Grpc.Auth.dll">
+      <publishTime>01/02/2024 18:27:58</publishTime>
+    </File>
+    <File Include="Grpc.Core.Api.dll">
+      <publishTime>01/02/2024 18:28:02</publishTime>
+    </File>
+    <File Include="Grpc.Net.Client.dll">
+      <publishTime>01/02/2024 18:28:06</publishTime>
+    </File>
+    <File Include="Grpc.Net.Common.dll">
+      <publishTime>01/02/2024 18:28:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>05/20/2024 07:26:12</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>05/20/2024 07:10:12</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>10/23/2021 01:47:36</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>01/27/2024 04:49:42</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/11/2023 21:56:18</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>05/20/2024 02:54:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>05/20/2024 02:55:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>05/20/2024 02:55:20</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>05/20/2024 02:55:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>10/31/2023 16:59:24</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>09/05/2023 21:25:28</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.Extensions.Msal.dll">
+      <publishTime>09/05/2023 21:31:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>11/21/2023 03:54:14</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>11/21/2023 03:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>11/21/2023 03:14:30</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>11/21/2023 03:17:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>11/21/2023 03:30:36</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>11/21/2023 03:23:16</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 22:14:12</publishTime>
+    </File>
+    <File Include="Microsoft.SqlServer.Server.dll">
+      <publishTime>01/27/2022 19:19:08</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 01:40:18</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>05/17/2024 23:45:56</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 09:09:54</publishTime>
+    </File>
+    <File Include="PdfSharp.Charting.dll">
+      <publishTime>05/28/2024 10:33:48</publishTime>
+    </File>
+    <File Include="PdfSharp.dll">
+      <publishTime>05/28/2024 10:33:48</publishTime>
+    </File>
+    <File Include="PdfSharp.Quality.dll">
+      <publishTime>05/28/2024 10:34:04</publishTime>
+    </File>
+    <File Include="PdfSharp.Snippets.dll">
+      <publishTime>05/28/2024 10:34:20</publishTime>
+    </File>
+    <File Include="PdfSharp.System.dll">
+      <publishTime>05/28/2024 10:33:36</publishTime>
+    </File>
+    <File Include="PdfSharp.WPFonts.dll">
+      <publishTime>05/28/2024 10:33:34</publishTime>
+    </File>
+    <File Include="Serilog.AspNetCore.dll">
+      <publishTime>01/19/2024 05:32:34</publishTime>
+    </File>
+    <File Include="Serilog.dll">
+      <publishTime>06/01/2024 09:19:40</publishTime>
+    </File>
+    <File Include="Serilog.Extensions.Hosting.dll">
+      <publishTime>11/15/2023 04:04:28</publishTime>
+    </File>
+    <File Include="Serilog.Extensions.Logging.dll">
+      <publishTime>11/15/2023 00:47:46</publishTime>
+    </File>
+    <File Include="Serilog.Formatting.Compact.dll">
+      <publishTime>11/09/2023 08:54:56</publishTime>
+    </File>
+    <File Include="Serilog.Settings.Configuration.dll">
+      <publishTime>11/15/2023 03:17:44</publishTime>
+    </File>
+    <File Include="Serilog.Sinks.Console.dll">
+      <publishTime>06/10/2024 01:13:26</publishTime>
+    </File>
+    <File Include="Serilog.Sinks.File.dll">
+      <publishTime>06/25/2021 10:00:48</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>07/19/2022 17:21:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>07/19/2022 17:21:38</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>07/19/2022 17:21:48</publishTime>
+    </File>
+    <File Include="System.CodeDom.dll">
+      <publishTime>10/31/2023 16:59:14</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>08/19/2022 21:58:02</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/23/2021 01:48:10</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>11/21/2023 03:10:00</publishTime>
+    </File>
+    <File Include="System.Management.dll">
+      <publishTime>05/24/2023 17:40:18</publishTime>
+    </File>
+    <File Include="System.Memory.Data.dll">
+      <publishTime>04/08/2021 18:45:54</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>10/23/2021 01:52:44</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 01:51:04</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/23/2021 01:49:50</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 01:49:58</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.Core.dll">
+      <publishTime>06/05/2023 23:18:28</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.dll">
+      <publishTime>06/05/2023 23:18:34</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.DocumentLayoutAnalysis.dll">
+      <publishTime>06/05/2023 23:18:36</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.Fonts.dll">
+      <publishTime>06/05/2023 23:18:32</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.Package.dll">
+      <publishTime>06/05/2023 23:18:36</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.Tokenization.dll">
+      <publishTime>06/05/2023 23:18:30</publishTime>
+    </File>
+    <File Include="UglyToad.PdfPig.Tokens.dll">
+      <publishTime>06/05/2023 23:18:30</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/23/2024 02:10:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

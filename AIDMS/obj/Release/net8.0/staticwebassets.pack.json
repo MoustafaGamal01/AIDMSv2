@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\AIDMS\\AIDMS\\wwwroot\\precise-mystery-426202-b2-ea3b830c7be2.json",
+      "PackagePath": "staticwebassets\\precise-mystery-426202-b2-ea3b830c7be2.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.AIDMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.AIDMS.props",
+      "PackagePath": "build\\AIDMS.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AIDMS.props",
+      "PackagePath": "buildMultiTargeting\\AIDMS.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.AIDMS.props",
+      "PackagePath": "buildTransitive\\AIDMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

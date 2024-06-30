@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "D4sQNClyd3xUpeyASMFoGuqTCq/nb/TqtAleu+SukLY=",
+  "Source": "AIDMS",
+  "BasePath": "_content/AIDMS",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AIDMS\\wwwroot",
+      "Source": "AIDMS",
+      "ContentRoot": "C:\\final\\AIDMS\\AIDMS\\wwwroot\\",
+      "BasePath": "_content/AIDMS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "+TcaYfPcc1w2SSO65337zbhWP7IBNu0jxg+cMpFlbsc=",
+  "Source": "AIDMS",
+  "BasePath": "_content/AIDMS",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AIDMS\\wwwroot",
+      "Source": "AIDMS",
+      "ContentRoot": "C:\\Users\\AIA\\Desktop\\AIDMS\\AIDMS\\wwwroot\\",
+      "BasePath": "_content/AIDMS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\AIA\\Desktop\\AIDMS\\AIDMS\\wwwroot\\precise-mystery-426202-b2-ea3b830c7be2.json",
+      "SourceId": "AIDMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AIA\\Desktop\\AIDMS\\AIDMS\\wwwroot\\",
+      "BasePath": "_content/AIDMS",
+      "RelativePath": "precise-mystery-426202-b2-ea3b830c7be2.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\precise-mystery-426202-b2-ea3b830c7be2.json"
+    }
+  ]
+}
