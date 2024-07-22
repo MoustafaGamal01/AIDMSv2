@@ -9,8 +9,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using AIDMS.DTOs;
 using AIDMS.Security_Entities;
+using AIDMS.Controllers;
 
-namespace AIDMS.Controllers
+namespace AIDMS.Controllers.Application
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -233,7 +234,7 @@ namespace AIDMS.Controllers
             var documents = _tempDocumentStorage[_studentId];
 
             // Create a new application
-            var application = new Application
+            var application = new AIDMS.Entities.Application
             {
                 Title = "Registration Requests",
                 Status = "Pending",

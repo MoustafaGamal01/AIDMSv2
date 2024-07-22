@@ -1,5 +1,4 @@
-﻿
-using AIDMS.Entities;
+﻿using AIDMS.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AIDMS.Repositories
@@ -13,7 +12,7 @@ namespace AIDMS.Repositories
             this._context = context;
         }
 
-        public async Task<UniversityListNIds> CheckExistanceOfNationalId(string nationalId)
+        public async Task<UniversityListNationaIds> CheckExistanceOfNationalId(string nationalId)
         {
             return await _context.UniversityListNIds.FirstOrDefaultAsync(i => i.NationalId == nationalId);
         }

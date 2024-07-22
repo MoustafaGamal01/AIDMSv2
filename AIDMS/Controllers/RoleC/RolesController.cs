@@ -8,18 +8,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using static Google.Cloud.Vision.V1.ProductSearchResults.Types;
 
-namespace AIDMS.Controllers
+namespace AIDMS.Controllers.RoleC
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = ("Admin"))]
+    [Authorize(Roles = "Admin")]
     public class RolesController : ControllerBase
     {
         private readonly RoleManager<IdentityRole> _roleManager;
 
         public RolesController(RoleManager<IdentityRole> roleManager)
         {
-            this._roleManager = roleManager;
+            _roleManager = roleManager;
         }
 
         [HttpPost]
@@ -28,7 +28,7 @@ namespace AIDMS.Controllers
         {
             if (ModelState.IsValid)
             {
-                IdentityResult result =  await _roleManager.CreateAsync(new IdentityRole(role.Name));
+                IdentityResult result = await _roleManager.CreateAsync(new IdentityRole(role.Name));
 
                 if (result.Succeeded)
                 {
@@ -38,7 +38,7 @@ namespace AIDMS.Controllers
             }
             return BadRequest("Error Occured while creating a role");
         }
-        
+
         [HttpGet]
         [Route("GetAll")]
         public async Task<IActionResult> GetAllRoles()

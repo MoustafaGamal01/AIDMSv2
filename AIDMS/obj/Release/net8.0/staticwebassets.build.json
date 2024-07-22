@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b+ce/y/p9KYFkx+wFYfvaxJV7MpVjb6vei5zGDyZ4Es=",
+  "Hash": "ubAFlQTF5siQZkX5/D/Yi6GpE8soD6l0xqR2J2lVNmE=",
   "Source": "AIDMS",
   "BasePath": "_content/AIDMS",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "AIDMS\\wwwroot",
       "Source": "AIDMS",
-      "ContentRoot": "C:\\final\\AIDMS\\AIDMS\\wwwroot\\",
+      "ContentRoot": "F:\\Programming\\- Projects\\Graduation Project\\AIDMS\\AIDMS\\wwwroot\\",
       "BasePath": "_content/AIDMS",
       "Pattern": "**"
     }

@@ -1,6 +1,6 @@
 ﻿namespace AIDMS.Entities
 {
-    public class UniversityListNIds
+    public class UniversityListNationaIds
     {
         public int Id { get; set; }
 

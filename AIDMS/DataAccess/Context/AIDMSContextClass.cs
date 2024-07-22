@@ -21,7 +21,7 @@ namespace AIDMS.Entities
         public DbSet<AIDocument> Documents { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Department> Departments { get; set; }
-        public DbSet<UniversityListNIds> UniversityListNIds { get; set; }
+        public DbSet<UniversityListNationaIds> UniversityListNIds { get; set; }
         // DbSet and additional entities if needed
         //DbSet<IdentityRole> Roless { get; set; }
         //Handle "Arabic Language" && "DateOnly prop" && "decimal props" && Nulls(for deleted props) In Db  

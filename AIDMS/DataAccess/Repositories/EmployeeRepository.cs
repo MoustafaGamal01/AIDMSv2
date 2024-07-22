@@ -9,6 +9,7 @@ using AIDMS.Security_Entities;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
 using System.Text;
+using AIDMS.Entities;
 
 namespace AIDMS.Repositories
 {

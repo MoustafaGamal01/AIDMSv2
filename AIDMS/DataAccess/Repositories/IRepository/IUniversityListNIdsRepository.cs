@@ -5,6 +5,6 @@ namespace AIDMS.Repositories
 {
     public interface IUniversityListNIdsRepository
     {
-        Task <UniversityListNIds> CheckExistanceOfNationalId(string NationalId);
+        Task <UniversityListNationaIds> CheckExistanceOfNationalId(string NationalId);
     }
 }

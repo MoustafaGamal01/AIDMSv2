@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace AIDMS.Controllers;
+namespace AIDMS.Controllers.EmployeeC;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -23,15 +23,15 @@ public class EmployeeController : Controller
     private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly RoleManager<IdentityRole> _roleManager;
 
-    public EmployeeController(AIDMSContextClass context,IEmployeeRepository emp, INotificationRepository notification, UserManager<ApplicationUser> userManager,
+    public EmployeeController(AIDMSContextClass context, IEmployeeRepository emp, INotificationRepository notification, UserManager<ApplicationUser> userManager,
         SignInManager<ApplicationUser> signInManager, RoleManager<IdentityRole> roleManager)
     {
-        this._context = context;
-        this._emp = emp;
-        this._notification = notification;
-        this._userManager = userManager;
-        this._signInManager = signInManager;
-        this._roleManager = roleManager;
+        _context = context;
+        _emp = emp;
+        _notification = notification;
+        _userManager = userManager;
+        _signInManager = signInManager;
+        _roleManager = roleManager;
     }
 
     [Authorize(Roles = "Affairs Officer, Academic Supervisor")]
@@ -73,8 +73,8 @@ public class EmployeeController : Controller
         string supervisorRoleName = "Academic Supervisor";
         // Find the role
         var role = await _roleManager.FindByNameAsync(supervisorRoleName);
-        
-        
+
+
         if (role == null)
         {
             return NotFound($"Role '{supervisorRoleName}' not found.");
@@ -87,7 +87,7 @@ public class EmployeeController : Controller
         {
             return NotFound("No supervisors found.");
         }
-        
+
         var supervisors = usersInRole.Select(user => new
         {
             Id = user.EmpId,
@@ -121,7 +121,7 @@ public class EmployeeController : Controller
         return Ok(result);
     }
 
-    [Authorize(Roles=("Affairs Officer, Academic Supervisor, Admin"))]
+    [Authorize(Roles = "Affairs Officer, Academic Supervisor, Admin")]
     [HttpGet]
     [Route("settings/{employeeId:int}")]
     public async Task<IActionResult> GetEmplyeesSetting(int employeeId)
@@ -155,7 +155,7 @@ public class EmployeeController : Controller
         return age;
     }
 
-    [Authorize(Roles =("Admin"))]
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     [ProducesResponseType(400)]
     public async Task<IActionResult> CreateEmployee([FromBody] EmployeeRegestrationDto model)
@@ -211,7 +211,7 @@ public class EmployeeController : Controller
         return Ok(new { Message = "Successful Registration" });
     }
 
-    [Authorize(Roles = ("Admin"))]
+    [Authorize(Roles = "Admin")]
     [HttpDelete("{id}")]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]
@@ -234,13 +234,13 @@ public class EmployeeController : Controller
                 return BadRequest($"Failed to delete the user associated with employee id: {id}.");
             }
         }
-        return Ok("Employee Deleted"); 
+        return Ok("Employee Deleted");
     }
 
-    [Authorize(Roles = ("Admin, Affairs Officer, Academic Supervisor"))]
+    [Authorize(Roles = "Admin, Affairs Officer, Academic Supervisor")]
     [HttpPut("{id}")]
     [ProducesResponseType(400)]
-    public async Task<IActionResult> UpdateEmployee( int id,[FromBody] UpdateEmployeeDto updateEmp)
+    public async Task<IActionResult> UpdateEmployee(int id, [FromBody] UpdateEmployeeDto updateEmp)
     {
         var emp = await _emp.GetEmployeeByIdAsync(id);
         if (emp == null)

@@ -12,7 +12,7 @@ using Google.Apis.Auth.OAuth2.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 
-namespace AIDMS.Controllers
+namespace AIDMS.Controllers.StudentC
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -31,12 +31,12 @@ namespace AIDMS.Controllers
             INotificationRepository notification, IDocumentRepository document,
             IGoogleCloudStorageRepository googleCloud, IPaymentRepository payment, UserManager<ApplicationUser> userManager)
         {
-            this._context = context;
-            this._student = student;
-            this._application = application;
-            this._notification = notification;
-            this._googleCloud = googleCloud;
-            this._payment = payment;
+            _context = context;
+            _student = student;
+            _application = application;
+            _notification = notification;
+            _googleCloud = googleCloud;
+            _payment = payment;
             _userManager = userManager;
         }
 
@@ -108,7 +108,7 @@ namespace AIDMS.Controllers
             if (ModelState.IsValid)
             {
                 UserSettingsDto userSettingsDto = new UserSettingsDto();
-                userSettingsDto.userName = student.userName; 
+                userSettingsDto.userName = student.userName;
                 userSettingsDto.Phone = student.PhoneNumber;
                 userSettingsDto.email = user.Email;
                 userSettingsDto.profilePicture = student.studentPicture;
@@ -195,8 +195,8 @@ namespace AIDMS.Controllers
                 status = n.Status,
                 decisionDate = n.DecisionDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 uploadedAt = n.SubmittedAt.ToString("yyyy-MM-dd HH:mm:ss"),
-                isAccepted = n.isAccepted    
-                
+                isAccepted = n.isAccepted
+
             }).ToList();
 
             return Ok(applicationsDto);
@@ -239,7 +239,7 @@ namespace AIDMS.Controllers
             }
 
             // Create the application entity with details
-            var application = new AIDMS.Entities.Application
+            var application = new Entities.Application
             {
                 Title = "Matrial Regestration",
                 Description = applicationDto.Description,
@@ -340,7 +340,7 @@ namespace AIDMS.Controllers
             }
 
             // Create the application entity with details
-            var application = new AIDMS.Entities.Application
+            var application = new Entities.Application
             {
                 Title = "Expenses Payment",
                 Description = applicationDto.Description,
@@ -378,7 +378,7 @@ namespace AIDMS.Controllers
             };
 
             await _payment.AddPaymentAsync(payment);
-            
+
             // Update the application with the PaymentId
             application.PaymentId = payment.Id;
             var applicationEntity = await _application.GetApplicationByIdAsync(application.Id);
@@ -440,7 +440,7 @@ namespace AIDMS.Controllers
             }
 
             // Create the application entity with details
-            var application = new AIDMS.Entities.Application
+            var application = new Entities.Application
             {
                 Title = "Military Education",
                 Description = applicationDto.Description,
@@ -497,7 +497,7 @@ namespace AIDMS.Controllers
                 CreatedAt = DateTime.Now,
                 fromStudent = true,
                 StudentId = applicationDto.StudentId,
-                IsRead=false
+                IsRead = false
             });
 
             return CreatedAtRoute("StudentPersonalInfo", new { Id = applicationDto.StudentId }, application);
@@ -540,7 +540,7 @@ namespace AIDMS.Controllers
             }
 
             // Create the application entity with details
-            var application = new AIDMS.Entities.Application
+            var application = new Entities.Application
             {
                 Title = "Academic Transcript",
                 Description = applicationDto.Description,
@@ -640,7 +640,7 @@ namespace AIDMS.Controllers
             }
 
             // Create the application entity with details
-            var application = new AIDMS.Entities.Application
+            var application = new Entities.Application
             {
                 Title = "Enrollment Proof",
                 Description = applicationDto.Description,
@@ -705,10 +705,10 @@ namespace AIDMS.Controllers
 
         [HttpPut]
         [Route("settings/{studentId}")]
-        public async Task<IActionResult>ChangePersonalInfo(int studentId, [FromBody] UserSettingsDto studentDto)
+        public async Task<IActionResult> ChangePersonalInfo(int studentId, [FromBody] UserSettingsDto studentDto)
         {
-            Student std = _context.Students.FirstOrDefault(s => s.Id == studentId);  
-            if(std == null )
+            Student std = _context.Students.FirstOrDefault(s => s.Id == studentId);
+            if (std == null)
             {
                 return BadRequest($"Student With id: {studentId} is not found!");
             }

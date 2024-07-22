@@ -49,7 +49,7 @@
 
   <ItemGroup>
     <Folder Include="Credentials\" />
-    <Folder Include="Migrations\" />
+    <Folder Include="DataAccess\Migrations\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
