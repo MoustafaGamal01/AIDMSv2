@@ -77,7 +77,7 @@ AIDMS uses sophisticated algorithms powered by the Google Cloud Vision API to re
 
 
 ## Team Members
-- [Mostafa Gamal](https://github.com/MoustafaGamal01)
+- [Moustafa Gamal](https://github.com/MoustafaGamal01)
 - [Bahaa Zenhom](https://github.com/bahaazenhom)
 - [Youssef Gamal](https://github.com/YoussefGemy)
 - [Mahmoud Hofny](https://github.com/mahmoudhofny)
